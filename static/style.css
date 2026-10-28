@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin: 0; background: #0f1115; color: #e8e8e8; }
+main { max-width: 760px; margin: 0 auto; padding: 24px; }
+h1 { margin-bottom: 4px; }
+.sub { color: #9aa0a6; margin-top: 0; }
+.chat { background: #1a1d23; border: 1px solid #333; border-radius: 12px; padding: 16px; min-height: 240px; }
+.msg { margin: 0 0 16px; }
+.msg.user { color: #8ab4f8; font-weight: 600; }
+.msg.bot { white-space: pre-wrap; }
+.sources { color: #9aa0a6; font-size: 13px; }
+.row { display: flex; gap: 10px; margin-top: 14px; }
+input { flex: 1; background: #1a1d23; color: #e8e8e8; border: 1px solid #333; border-radius: 8px; padding: 11px; font-size: 15px; }
+button { background: #e5322d; color: #fff; border: 0; border-radius: 8px; padding: 11px 20px; font-size: 15px; cursor: pointer; }
+button.sample { background: #333; padding: 7px 12px; font-size: 13px; margin: 2px; }
+button:disabled { opacity: 0.5; }
+.samples { color: #9aa0a6; }
